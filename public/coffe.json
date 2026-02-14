@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "coffeeName": "Cappuccino Classic",
+        "image": "https://i.ibb.co.com/Pvd6dDgL/1.png",
+        "chef": "Marco Rossi",
+        "price": 4.50
+    },
+    {
+        "id": 2,
+        "coffeeName": "Caramel Latte",
+        "image": "https://i.ibb.co.com/NdBPnBFy/2.png",
+        "chef": "Luca Romano",
+        "price": 5.25
+    },
+    {
+        "id": 3,
+        "coffeeName": "Espresso Shot",
+        "image": "https://i.ibb.co.com/Jw3DwrR9/3.png",
+        "chef": "Antonio Bianchi",
+        "price": 3.00
+    },
+    {
+        "id": 4,
+        "coffeeName": "Mocha Delight",
+        "image": "https://i.ibb.co.com/gL9x3bMt/4.png",
+        "chef": "Giovanni Ferrari",
+        "price": 5.75
+    },
+    {
+        "id": 5,
+        "coffeeName": "Vanilla Cold Brew",
+        "image": "https://i.ibb.co.com/ZzZRrY2j/5.png",
+        "chef": "Francesca Conti",
+        "price": 4.95
+    },
+    {
+        "id": 6,
+        "coffeeName": "Hazelnut Latte",
+        "image": "https://i.ibb.co.com/Pvd6dDgL/1.png",
+        "chef": "Alessandro Moretti",
+        "price": 5.40
+    }
+]
