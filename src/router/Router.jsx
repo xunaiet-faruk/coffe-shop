@@ -5,6 +5,7 @@ import {
 import Layout from "../component/Routerlayout/Layout";
 import Home from "../component/Home/Home";
 import Allcontent from "../component/PageContent/Allcontent";
+import Adcoffe from "../component/PageContent/Adcoffe";
 
 
 export const router = createBrowserRouter([
@@ -19,7 +20,11 @@ export const router = createBrowserRouter([
                     {
                         index : true,
                         element :<Allcontent/>
-                    }
+                    },
+                    {
+                        path:'/add',
+                        element :<Adcoffe/>
+                    },
                 ]
             },
             
