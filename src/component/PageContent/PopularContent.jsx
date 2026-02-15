@@ -1,4 +1,4 @@
-import { use } from "react";
+
 import { FaRegEdit, FaRegEye } from "react-icons/fa";
 import { MdDeleteForever } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -37,10 +37,7 @@ const PopularContent = ({ CoffePromise }) => {
                 })
             }
         });
-
-
-
-        
+       
         
     }
   
@@ -74,7 +71,7 @@ const PopularContent = ({ CoffePromise }) => {
 
                             <div className="space-y-2">
                                 <Link to={`/details/${coffe._id}`}> <p className="bg-[#d3b890] mb-2 cursor-pointer p-2 rounded-md text-center"><FaRegEye className="text-white text-center " /></p></Link>
-                                <p className="bg-black p-2 rounded-md cursor-pointer text-center"><FaRegEdit className="text-white text-center "/></p>
+                                <Link to={`/update/${coffe._id}`}> <p className="bg-black p-2 mb-2 rounded-md cursor-pointer text-center"><FaRegEdit className="text-white text-center " /></p></Link>
                                 <p className="bg-red-700 p-2 rounded-md cursor-pointer text-center"><MdDeleteForever onClick={() =>handleDelete(coffe._id)} className="text-white text-center "/></p>
                                
                             </div>
