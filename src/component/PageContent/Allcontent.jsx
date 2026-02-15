@@ -1,15 +1,17 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import Banner from './Banner';
 import PopularContent from './PopularContent';
+import { useLoaderData } from 'react-router-dom';
 
 const Allcontent = () => {
 
-    const coffeePromise = fetch("/coffe.json").then(res => res.json());
+    const CoffePromise =useLoaderData()
+    console.log(CoffePromise);
     return (
         <div>
             <Banner/>
             <Suspense fallback={<h1>Data Is Comming.................</h1>}>
-                <PopularContent coffeePromise={coffeePromise}/>
+                <PopularContent CoffePromise={CoffePromise}/>
             </Suspense>
         </div>
     );
